@@ -3,46 +3,46 @@ import { PolarArea } from 'react-chartjs-2';
 import Chart from 'chart.js/auto';
 
 
-const PolarChart = ({ serverData }) => {
+const PolarChart = ({ mainData }) => {
 
     let uniqueSectors = [];
     //using forEach because it doesn't return any array
-    serverData.forEach((i) => {
+    mainData.forEach((i) => {
         if (!uniqueSectors.includes(i.sector) && i.sector !== "") {
             uniqueSectors.push(i.sector);
         }
     })
 
     let uniqueTopics = [];
-    serverData.forEach((i) => {
+    mainData.forEach((i) => {
         if (!uniqueTopics.includes(i.topic) && i.topic !== "") {
             uniqueTopics.push(i.topic);
         }
     })
 
     let uniqueRegion = [];
-    serverData.forEach((i) => {
+    mainData.forEach((i) => {
         if (!uniqueRegion.includes(i.region) && i.region !== "") {
             uniqueRegion.push(i.region);
         }
     })
 
     let uniqueCountry = [];
-    serverData.forEach((i) => {
+    mainData.forEach((i) => {
         if (!uniqueCountry.includes(i.country) && i.country !== "") {
             uniqueCountry.push(i.country);
         }
     })
 
     let uniqueSource = [];
-    serverData.forEach((i) => {
+    mainData.forEach((i) => {
         if (!uniqueSource.includes(i.source) && i.source !== "") {
             uniqueSource.push(i.source);
         }
     })
 
     let uniquePestle = [];
-    serverData.forEach((i) => {
+    mainData.forEach((i) => {
         if (!uniquePestle.includes(i.pestle) && i.pestle !== "") {
             uniquePestle.push(i.pestle);
         }
