@@ -1,15 +1,21 @@
-
-![Screenshot (23)](https://github.com/user-attachments/assets/6778a0c4-a686-4c01-acee-d77741c50f15)
-
-
+1
+![Screenshot (23)](https://github.com/user-attachments/assets/32a625b7-5b95-4bae-bda7-aa727e51184a)
 
 
-![Screenshot (24)](https://github.com/user-attachments/assets/6bcd2955-b707-4a32-adb7-26df34b632d7)
 
+2
+
+
+
+![Screenshot (24)](https://github.com/user-attachments/assets/f288a2b3-9c3c-4f72-9e17-539b6f1b5da6)
 
 
 TO RUN:
 
-install all libraries
-cd server > npm start
-cd client >npm start
+install all libraries:
+npm install
+
+cd server > 
+npm start
+cd client >
+npm start
