@@ -1,4 +1,0 @@
-TO RUN:
-install all libraries
-cd server > npm start
-cd client >npm start
